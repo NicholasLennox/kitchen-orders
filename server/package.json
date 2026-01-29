@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.3",
+    "ws": "^8.19.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "npx tsc && node dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0"
+  }
+}
