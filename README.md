@@ -68,6 +68,14 @@ It:
 
 You can think of it as the service counter where orders are checked, updated, and handed out.
 
+## Day 1 progress
+
+- Looked at problem of separating clients based on a role (one kitchen, many customers)
+- Identified which socket is the kitchen connecting and storing that as a variable (the kitchen gets messaged as a side effect of new orders)
+- Created basic layout for clients with minimal styling
+- Only logging the messages between client and server, still need to show in DOM
+- Server has no types yet, we also arent linking an order number with a customer (socket) yet
+
 ## How to run the project
 
 This project consists of three separate applications:
